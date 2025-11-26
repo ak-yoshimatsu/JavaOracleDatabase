@@ -19,6 +19,9 @@ spring:
     # JDBCドライバクラス名 (明示的な指定は必須ではないが推奨)
     driver-class-name: oracle.jdbc.OracleDriver
 
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
 
 #  docker:
 #    compose:
